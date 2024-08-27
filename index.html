@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="page-wrapper">
+        <div id="logo-column">
+            <div id="logo-container">
+                <div id="ico">
+
+                </div>
+                <div id="logo-text">
+                    ODIN
+                </div>
+            </div>
+        </div>
+        <div id="acton-column">
+            <div class="action-row" id="action-row-1">
+                <p>This is not a real online service!  You know you need something like thing in your life to help you realize your deepest dreams.  Sing up now to get started</p>
+                <br>
+                <p>You know you want to</p>
+            </div>
+            <div class="action-row" id="action-row-2">
+                <div id="form-header">
+                    <h1 id="form-header-text">Let's do this!</h1>
+                </div>
+                <div id="form-wrapper">
+                    <form action="POST" id = 'main-form'>
+                        <label for="first-name" class="form-label">FIRST NAME*</label>
+                        <input type="text" class="form-input" id = 'first-name' placeholder="John..." required>
+                        <label for="last-name" class="form-label">LAST NAME*</label>
+                        <input type="text" class="form-input" id = 'last-name' placeholder="Doe..." required>
+                        <label for="email" class="form-label">EMAIL*</label>
+                        <input type="email" class="form-input" id = 'email' placeholder="john.doe@gmail.com" required>
+                        <label for="phone" class="form-label">PHONE NUMBER</label>
+                        <input type="text" class="form-input" id = 'phone' placeholder="###-###-####">
+                        <label for="pass" class="form-label">PASSWORD*</label>
+                        <input type="password" class="form-input" id = 'pass' placeholder="" required>
+                        <label for="pass-2" class="form-label">CONFIRM PASSWORD*</label>
+                        <input type="password" class="form-input" id = 'pass-2' placeholder="Re-enter Password..." required>
+                    </form>
+                </div>
+            </div>
+            <div class="action-row" id="action-row-3">
+                <button type="submit" id="form-submit-button" form="main-form">Create Account</button>
+                <p id = 'account-text'>Already have an account? <a href="" id = 'login-text'>Log In</a></p>
+            </div>
+        </div>
+
+    </div>
+
+    
+</body>
+</html>

@@ -4,7 +4,6 @@
 }
 * {
     box-sizing: border-box;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 #page-wrapper {
@@ -43,13 +42,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    font-family: Norse-Bold;
     color: white;
     font-size: 5rem;
-}
-
-#logo-text{
-    font-family: Norse-Bold;
 }
 
 #odin-logo {
@@ -64,8 +59,7 @@
     flex-direction: column;
     justify-content: flex-end;
     align-items: flex-start;
-    font-size: 1.5rem;
-    font-style: italic;
+    font-size: 2rem;
 }
 
 #action-row-2{
@@ -78,7 +72,7 @@
 }
 
 #form-header{
-    font-size: .8rem;
+
 }
 
 #main-form{
@@ -109,25 +103,10 @@
     border-style: solid;
     border-radius: 3px;
     border-width: 1px;
+    box-sizing: unset;
 }
 
 .form-input:focus{
-    background-color: rgb(228, 228, 245);
-}
-
-.form-input:invalid{
-    border-color: rgb(235, 60, 16);
-}
-
-
-#form-submit-button{
-    margin-top: 20px;
-    border-style: solid;
-    border-color: #596D48;
-    background-color: #596D48;
-    color: white;
-    border-radius: 5px;
-    width: 150px;
-    height: 40px;
-
+    border-color: #4e74ee;
+  
 }
